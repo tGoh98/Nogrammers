@@ -35,15 +35,15 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="MkQ-I9-yso" kind="relationship" relationship="viewControllers" id="fuN-8E-mry"/>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="KeF-Db-U04"/>
+                        <segue destination="MkQ-I9-yso" kind="relationship" relationship="viewControllers" id="fuN-8E-mry"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kjw-0W-ybm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1239" y="151"/>
         </scene>
-        <!--Feed-->
+        <!--Events-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="FeedViewController" sceneMemberID="viewController">
@@ -64,17 +64,30 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Um5-mF-fLZ">
-                                                    <rect key="frame" x="87" y="81" width="33" height="30"/>
+                                                    <rect key="frame" x="297" y="157" width="33" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <state key="normal" title="hello"/>
                                                     <connections>
                                                         <action selector="onTap:" destination="6Ul-Lz-KZK" eventType="touchUpInside" id="qog-nq-BTW"/>
                                                     </connections>
                                                 </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w6c-DW-AxH">
+                                                    <rect key="frame" x="34" y="25" width="344" height="37"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a3Z-88-DxU">
+                                                    <rect key="frame" x="20" y="59" width="240" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="apiButton" destination="Um5-mF-fLZ" id="6S2-qP-oud"/>
+                                            <outlet property="descriptionLabel" destination="w6c-DW-AxH" id="E5p-dw-qf5"/>
+                                            <outlet property="eventImage" destination="a3Z-88-DxU" id="ddz-1X-bfh"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -83,7 +96,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Feed" id="lyt-Vu-SQ7"/>
+                    <tabBarItem key="tabBarItem" title="Events" id="lyt-Vu-SQ7"/>
                     <connections>
                         <outlet property="FeedTableView" destination="oTf-cd-iWS" id="BSX-Px-Guy"/>
                     </connections>

@@ -20,6 +20,8 @@
     // Configure the view for the selected state
 }
 
+
+
 - (IBAction)onTap:(id)sender {
     self.apiButton.tintColor = UIColor.cyanColor;
     
@@ -35,7 +37,7 @@
         }
         else {
             NSDictionary *dataDictionary = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
-            NSLog(@"%@", [dataDictionary description]);
+            NSLog(@"%@", dataDictionary);
         }
     }];
     [task resume];
