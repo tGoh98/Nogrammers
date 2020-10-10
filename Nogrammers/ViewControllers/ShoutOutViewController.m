@@ -51,6 +51,7 @@
     NSString *dateString = [formatter stringFromDate:[NSDate dateWithTimeIntervalSince1970:date]];
     
     cell.dateLabel.text = dateString;
+    cell.userImage.image = [UIImage imageNamed:@"k1.png"];
     return cell;
 }
 

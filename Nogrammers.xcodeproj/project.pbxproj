@@ -20,6 +20,8 @@
 		C293A615253253F70099BC46 /* ComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C293A614253253F70099BC46 /* ComposeViewController.m */; };
 		C29D266E253218A300F2AC96 /* ShoutOutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29D266D253218A300F2AC96 /* ShoutOutViewController.m */; };
 		C29D26752532195300F2AC96 /* ShoutOutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C29D26742532195300F2AC96 /* ShoutOutCell.m */; };
+		C2DC138925326C2000619D63 /* SDSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DC138825326C2000619D63 /* SDSViewController.m */; };
+		C2DC138D25326C7700619D63 /* SDSCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DC138C25326C7700619D63 /* SDSCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,10 @@
 		C29D266D253218A300F2AC96 /* ShoutOutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoutOutViewController.m; sourceTree = "<group>"; };
 		C29D26732532195300F2AC96 /* ShoutOutCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShoutOutCell.h; sourceTree = "<group>"; };
 		C29D26742532195300F2AC96 /* ShoutOutCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoutOutCell.m; sourceTree = "<group>"; };
+		C2DC138725326C2000619D63 /* SDSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDSViewController.h; sourceTree = "<group>"; };
+		C2DC138825326C2000619D63 /* SDSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDSViewController.m; sourceTree = "<group>"; };
+		C2DC138B25326C7700619D63 /* SDSCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDSCell.h; sourceTree = "<group>"; };
+		C2DC138C25326C7700619D63 /* SDSCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDSCell.m; sourceTree = "<group>"; };
 		F394A3D036EBC82906E9E48D /* Pods-Nogrammers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nogrammers.release.xcconfig"; path = "Target Support Files/Pods-Nogrammers/Pods-Nogrammers.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,6 +120,8 @@
 				C29D2670253218EC00F2AC96 /* ViewControllers */,
 				C270D20B253175C400C9CF61 /* FeedTableViewCell.h */,
 				C270D20C253175C400C9CF61 /* FeedTableViewCell.m */,
+				C2DC138B25326C7700619D63 /* SDSCell.h */,
+				C2DC138C25326C7700619D63 /* SDSCell.m */,
 			);
 			path = Nogrammers;
 			sourceTree = "<group>";
@@ -127,6 +135,8 @@
 				C29D266D253218A300F2AC96 /* ShoutOutViewController.m */,
 				C293A613253253F70099BC46 /* ComposeViewController.h */,
 				C293A614253253F70099BC46 /* ComposeViewController.m */,
+				C2DC138725326C2000619D63 /* SDSViewController.h */,
+				C2DC138825326C2000619D63 /* SDSViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -249,9 +259,11 @@
 				C270D2092531746A00C9CF61 /* FeedViewController.m in Sources */,
 				C270D1EE25316F9400C9CF61 /* AppDelegate.m in Sources */,
 				C270D1FF25316F9700C9CF61 /* main.m in Sources */,
+				C2DC138D25326C7700619D63 /* SDSCell.m in Sources */,
 				C29D266E253218A300F2AC96 /* ShoutOutViewController.m in Sources */,
 				C270D1F125316F9400C9CF61 /* SceneDelegate.m in Sources */,
 				C29D26752532195300F2AC96 /* ShoutOutCell.m in Sources */,
+				C2DC138925326C2000619D63 /* SDSViewController.m in Sources */,
 				C293A615253253F70099BC46 /* ComposeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
