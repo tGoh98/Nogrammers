@@ -5,11 +5,11 @@
 //  Created by Timothy Goh on 10/9/20.
 //
 
-#import "ViewController.h"
+#import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface FeedViewController : ViewController
+@interface FeedViewController : UIViewController
 
 @end
 

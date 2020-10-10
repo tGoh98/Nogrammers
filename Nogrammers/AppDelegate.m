@@ -11,13 +11,21 @@
 
 @end
 
+@import UIKit;
+
 @implementation AppDelegate
 
-
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
-    return YES;
+- (BOOL)application:(UIApplication *)application
+    didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+  [FIRApp configure];
+    self.fbRef = [[FIRDatabase database] reference];
+  return YES;
 }
+
+//- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+//    // Override point for customization after application launch.
+//    return YES;
+//}
 
 
 #pragma mark - UISceneSession lifecycle

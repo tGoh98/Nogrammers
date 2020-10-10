@@ -1,5 +1,5 @@
 //
-//  websiteTableViewController.h
+//  ComposeViewController.h
 //  Nogrammers
 //
 //  Created by Timothy Goh on 10/10/20.
@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface websiteTableViewController : UITableViewController
+@interface ComposeViewController : UIViewController
 
 @end
 

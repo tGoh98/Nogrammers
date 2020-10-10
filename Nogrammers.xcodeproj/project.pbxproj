@@ -3,33 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		451CC2A1E5868D35CBD1A338 /* Pods_Nogrammers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7C5AD8321D234AC8959A60 /* Pods_Nogrammers.framework */; };
+		02D24AA241523EDDD9E36946 /* Pods_Nogrammers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EDE2F6865226370C5C006D2 /* Pods_Nogrammers.framework */; };
 		C270D1EE25316F9400C9CF61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C270D1ED25316F9400C9CF61 /* AppDelegate.m */; };
 		C270D1F125316F9400C9CF61 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C270D1F025316F9400C9CF61 /* SceneDelegate.m */; };
-		C270D1F425316F9400C9CF61 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C270D1F325316F9400C9CF61 /* ViewController.m */; };
 		C270D1F725316F9400C9CF61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C270D1F525316F9400C9CF61 /* Main.storyboard */; };
 		C270D1F925316F9700C9CF61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C270D1F825316F9700C9CF61 /* Assets.xcassets */; };
 		C270D1FC25316F9700C9CF61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C270D1FA25316F9700C9CF61 /* LaunchScreen.storyboard */; };
 		C270D1FF25316F9700C9CF61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C270D1FE25316F9700C9CF61 /* main.m */; };
 		C270D2092531746A00C9CF61 /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C270D2082531746A00C9CF61 /* FeedViewController.m */; };
 		C270D20D253175C400C9CF61 /* FeedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C270D20C253175C400C9CF61 /* FeedTableViewCell.m */; };
-		C270D21125317CAF00C9CF61 /* websiteTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C270D21025317CAF00C9CF61 /* websiteTableViewController.m */; };
+		C293A5DD25321E030099BC46 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C293A5DC25321E030099BC46 /* GoogleService-Info.plist */; };
+		C293A615253253F70099BC46 /* ComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C293A614253253F70099BC46 /* ComposeViewController.m */; };
+		C29D266E253218A300F2AC96 /* ShoutOutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29D266D253218A300F2AC96 /* ShoutOutViewController.m */; };
+		C29D26752532195300F2AC96 /* ShoutOutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C29D26742532195300F2AC96 /* ShoutOutCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5E1697007E3312E680685BF4 /* Pods-Nogrammers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nogrammers.debug.xcconfig"; path = "Target Support Files/Pods-Nogrammers/Pods-Nogrammers.debug.xcconfig"; sourceTree = "<group>"; };
-		7CE0BCB3ACCDA43E72711608 /* Pods-Nogrammers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nogrammers.release.xcconfig"; path = "Target Support Files/Pods-Nogrammers/Pods-Nogrammers.release.xcconfig"; sourceTree = "<group>"; };
+		8EDE2F6865226370C5C006D2 /* Pods_Nogrammers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nogrammers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5CA1E946798527FCBC0A984 /* Pods-Nogrammers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nogrammers.debug.xcconfig"; path = "Target Support Files/Pods-Nogrammers/Pods-Nogrammers.debug.xcconfig"; sourceTree = "<group>"; };
 		C270D1E925316F9400C9CF61 /* Nogrammers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nogrammers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C270D1EC25316F9400C9CF61 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C270D1ED25316F9400C9CF61 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C270D1EF25316F9400C9CF61 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		C270D1F025316F9400C9CF61 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		C270D1F225316F9400C9CF61 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C270D1F325316F9400C9CF61 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C270D1F625316F9400C9CF61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C270D1F825316F9700C9CF61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C270D1FB25316F9700C9CF61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -39,9 +39,14 @@
 		C270D2082531746A00C9CF61 /* FeedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedViewController.m; sourceTree = "<group>"; };
 		C270D20B253175C400C9CF61 /* FeedTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedTableViewCell.h; sourceTree = "<group>"; };
 		C270D20C253175C400C9CF61 /* FeedTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedTableViewCell.m; sourceTree = "<group>"; };
-		C270D20F25317CAF00C9CF61 /* websiteTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = websiteTableViewController.h; sourceTree = "<group>"; };
-		C270D21025317CAF00C9CF61 /* websiteTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = websiteTableViewController.m; sourceTree = "<group>"; };
-		FA7C5AD8321D234AC8959A60 /* Pods_Nogrammers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nogrammers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C293A5DC25321E030099BC46 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C293A613253253F70099BC46 /* ComposeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComposeViewController.h; sourceTree = "<group>"; };
+		C293A614253253F70099BC46 /* ComposeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComposeViewController.m; sourceTree = "<group>"; };
+		C29D266C253218A300F2AC96 /* ShoutOutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShoutOutViewController.h; sourceTree = "<group>"; };
+		C29D266D253218A300F2AC96 /* ShoutOutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoutOutViewController.m; sourceTree = "<group>"; };
+		C29D26732532195300F2AC96 /* ShoutOutCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShoutOutCell.h; sourceTree = "<group>"; };
+		C29D26742532195300F2AC96 /* ShoutOutCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoutOutCell.m; sourceTree = "<group>"; };
+		F394A3D036EBC82906E9E48D /* Pods-Nogrammers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nogrammers.release.xcconfig"; path = "Target Support Files/Pods-Nogrammers/Pods-Nogrammers.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,29 +54,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				451CC2A1E5868D35CBD1A338 /* Pods_Nogrammers.framework in Frameworks */,
+				02D24AA241523EDDD9E36946 /* Pods_Nogrammers.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4E317656CE153CEEC0237220 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				FA7C5AD8321D234AC8959A60 /* Pods_Nogrammers.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		855EE0FCEE6A024A6140114F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5E1697007E3312E680685BF4 /* Pods-Nogrammers.debug.xcconfig */,
-				7CE0BCB3ACCDA43E72711608 /* Pods-Nogrammers.release.xcconfig */,
+				A5CA1E946798527FCBC0A984 /* Pods-Nogrammers.debug.xcconfig */,
+				F394A3D036EBC82906E9E48D /* Pods-Nogrammers.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		A719EA4216EA20E86C1069AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8EDE2F6865226370C5C006D2 /* Pods_Nogrammers.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		C270D1E025316F9400C9CF61 = {
@@ -80,7 +84,7 @@
 				C270D1EB25316F9400C9CF61 /* Nogrammers */,
 				C270D1EA25316F9400C9CF61 /* Products */,
 				855EE0FCEE6A024A6140114F /* Pods */,
-				4E317656CE153CEEC0237220 /* Frameworks */,
+				A719EA4216EA20E86C1069AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,21 +103,32 @@
 				C270D1ED25316F9400C9CF61 /* AppDelegate.m */,
 				C270D1EF25316F9400C9CF61 /* SceneDelegate.h */,
 				C270D1F025316F9400C9CF61 /* SceneDelegate.m */,
-				C270D1F225316F9400C9CF61 /* ViewController.h */,
-				C270D1F325316F9400C9CF61 /* ViewController.m */,
 				C270D1F525316F9400C9CF61 /* Main.storyboard */,
 				C270D1F825316F9700C9CF61 /* Assets.xcassets */,
 				C270D1FA25316F9700C9CF61 /* LaunchScreen.storyboard */,
+				C293A5DC25321E030099BC46 /* GoogleService-Info.plist */,
 				C270D1FD25316F9700C9CF61 /* Info.plist */,
+				C29D26732532195300F2AC96 /* ShoutOutCell.h */,
+				C29D26742532195300F2AC96 /* ShoutOutCell.m */,
 				C270D1FE25316F9700C9CF61 /* main.m */,
-				C270D2072531746A00C9CF61 /* FeedViewController.h */,
-				C270D2082531746A00C9CF61 /* FeedViewController.m */,
+				C29D2670253218EC00F2AC96 /* ViewControllers */,
 				C270D20B253175C400C9CF61 /* FeedTableViewCell.h */,
 				C270D20C253175C400C9CF61 /* FeedTableViewCell.m */,
-				C270D20F25317CAF00C9CF61 /* websiteTableViewController.h */,
-				C270D21025317CAF00C9CF61 /* websiteTableViewController.m */,
 			);
 			path = Nogrammers;
+			sourceTree = "<group>";
+		};
+		C29D2670253218EC00F2AC96 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C270D2072531746A00C9CF61 /* FeedViewController.h */,
+				C270D2082531746A00C9CF61 /* FeedViewController.m */,
+				C29D266C253218A300F2AC96 /* ShoutOutViewController.h */,
+				C29D266D253218A300F2AC96 /* ShoutOutViewController.m */,
+				C293A613253253F70099BC46 /* ComposeViewController.h */,
+				C293A614253253F70099BC46 /* ComposeViewController.m */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,11 +138,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C270D20225316F9700C9CF61 /* Build configuration list for PBXNativeTarget "Nogrammers" */;
 			buildPhases = (
-				235F8B51308F2894308A6C93 /* [CP] Check Pods Manifest.lock */,
+				31568E98651B7E64D74B25B3 /* [CP] Check Pods Manifest.lock */,
 				C270D1E525316F9400C9CF61 /* Sources */,
 				C270D1E625316F9400C9CF61 /* Frameworks */,
 				C270D1E725316F9400C9CF61 /* Resources */,
-				9CA61C868A5BBF287BB0A133 /* [CP] Embed Pods Frameworks */,
+				2D076DDE4C30A8AB029E8952 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -175,6 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C270D1FC25316F9700C9CF61 /* LaunchScreen.storyboard in Resources */,
+				C293A5DD25321E030099BC46 /* GoogleService-Info.plist in Resources */,
 				C270D1F925316F9700C9CF61 /* Assets.xcassets in Resources */,
 				C270D1F725316F9400C9CF61 /* Main.storyboard in Resources */,
 			);
@@ -183,7 +199,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		235F8B51308F2894308A6C93 /* [CP] Check Pods Manifest.lock */ = {
+		2D076DDE4C30A8AB029E8952 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nogrammers/Pods-Nogrammers-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nogrammers/Pods-Nogrammers-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Nogrammers/Pods-Nogrammers-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31568E98651B7E64D74B25B3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -205,23 +238,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9CA61C868A5BBF287BB0A133 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Nogrammers/Pods-Nogrammers-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Nogrammers/Pods-Nogrammers-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Nogrammers/Pods-Nogrammers-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -229,13 +245,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C270D1F425316F9400C9CF61 /* ViewController.m in Sources */,
 				C270D20D253175C400C9CF61 /* FeedTableViewCell.m in Sources */,
 				C270D2092531746A00C9CF61 /* FeedViewController.m in Sources */,
 				C270D1EE25316F9400C9CF61 /* AppDelegate.m in Sources */,
 				C270D1FF25316F9700C9CF61 /* main.m in Sources */,
-				C270D21125317CAF00C9CF61 /* websiteTableViewController.m in Sources */,
+				C29D266E253218A300F2AC96 /* ShoutOutViewController.m in Sources */,
 				C270D1F125316F9400C9CF61 /* SceneDelegate.m in Sources */,
+				C29D26752532195300F2AC96 /* ShoutOutCell.m in Sources */,
+				C293A615253253F70099BC46 /* ComposeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,7 +392,7 @@
 		};
 		C270D20325316F9700C9CF61 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E1697007E3312E680685BF4 /* Pods-Nogrammers.debug.xcconfig */;
+			baseConfigurationReference = A5CA1E946798527FCBC0A984 /* Pods-Nogrammers.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -394,7 +411,7 @@
 		};
 		C270D20425316F9700C9CF61 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7CE0BCB3ACCDA43E72711608 /* Pods-Nogrammers.release.xcconfig */;
+			baseConfigurationReference = F394A3D036EBC82906E9E48D /* Pods-Nogrammers.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
