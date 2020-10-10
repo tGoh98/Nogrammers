@@ -14,6 +14,9 @@
 		C270D1F925316F9700C9CF61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C270D1F825316F9700C9CF61 /* Assets.xcassets */; };
 		C270D1FC25316F9700C9CF61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C270D1FA25316F9700C9CF61 /* LaunchScreen.storyboard */; };
 		C270D1FF25316F9700C9CF61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C270D1FE25316F9700C9CF61 /* main.m */; };
+		C270D2092531746A00C9CF61 /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C270D2082531746A00C9CF61 /* FeedViewController.m */; };
+		C270D20D253175C400C9CF61 /* FeedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C270D20C253175C400C9CF61 /* FeedTableViewCell.m */; };
+		C270D21125317CAF00C9CF61 /* websiteTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C270D21025317CAF00C9CF61 /* websiteTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,12 @@
 		C270D1FB25316F9700C9CF61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C270D1FD25316F9700C9CF61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C270D1FE25316F9700C9CF61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C270D2072531746A00C9CF61 /* FeedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedViewController.h; sourceTree = "<group>"; };
+		C270D2082531746A00C9CF61 /* FeedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedViewController.m; sourceTree = "<group>"; };
+		C270D20B253175C400C9CF61 /* FeedTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedTableViewCell.h; sourceTree = "<group>"; };
+		C270D20C253175C400C9CF61 /* FeedTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedTableViewCell.m; sourceTree = "<group>"; };
+		C270D20F25317CAF00C9CF61 /* websiteTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = websiteTableViewController.h; sourceTree = "<group>"; };
+		C270D21025317CAF00C9CF61 /* websiteTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = websiteTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +81,12 @@
 				C270D1FA25316F9700C9CF61 /* LaunchScreen.storyboard */,
 				C270D1FD25316F9700C9CF61 /* Info.plist */,
 				C270D1FE25316F9700C9CF61 /* main.m */,
+				C270D2072531746A00C9CF61 /* FeedViewController.h */,
+				C270D2082531746A00C9CF61 /* FeedViewController.m */,
+				C270D20B253175C400C9CF61 /* FeedTableViewCell.h */,
+				C270D20C253175C400C9CF61 /* FeedTableViewCell.m */,
+				C270D20F25317CAF00C9CF61 /* websiteTableViewController.h */,
+				C270D21025317CAF00C9CF61 /* websiteTableViewController.m */,
 			);
 			path = Nogrammers;
 			sourceTree = "<group>";
@@ -146,8 +161,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C270D1F425316F9400C9CF61 /* ViewController.m in Sources */,
+				C270D20D253175C400C9CF61 /* FeedTableViewCell.m in Sources */,
+				C270D2092531746A00C9CF61 /* FeedViewController.m in Sources */,
 				C270D1EE25316F9400C9CF61 /* AppDelegate.m in Sources */,
 				C270D1FF25316F9700C9CF61 /* main.m in Sources */,
+				C270D21125317CAF00C9CF61 /* websiteTableViewController.m in Sources */,
 				C270D1F125316F9400C9CF61 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
