@@ -322,6 +322,7 @@
                         <segue destination="MkQ-I9-yso" kind="relationship" relationship="viewControllers" id="fuN-8E-mry"/>
                         <segue destination="3QB-3G-Dqk" kind="relationship" relationship="viewControllers" id="KeF-Db-U04"/>
                         <segue destination="HjK-Jz-dVX" kind="relationship" relationship="viewControllers" id="8CX-fv-zTZ"/>
+                        <segue destination="hij-uG-apm" kind="relationship" relationship="viewControllers" id="lh2-Rc-5vK"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kjw-0W-ybm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -531,6 +532,66 @@
             </objects>
             <point key="canvasLocation" x="-257.97101449275362" y="-258.48214285714283"/>
         </scene>
+        <!--About Duncan-->
+        <scene sceneID="NvK-Wg-Iin">
+            <objects>
+                <viewController id="hij-uG-apm" customClass="AboutViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="r2j-iL-6je">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BhN-5g-X7N">
+                                <rect key="frame" x="20" y="44" width="374" height="769"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qAA-8s-nB3">
+                                        <rect key="frame" x="8" y="175" width="358" height="567.5"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <accessibility key="accessibilityConfiguration">
+                                            <accessibilityTraits key="traits" notEnabled="YES"/>
+                                        </accessibility>
+                                        <mutableString key="text">Statement of Acceptance
+The recent surfacing of the senseless killings of George Floyd, Ahmaud Aubrey, Breonna Taylor and several others have further emphasized the issues of racial inequality that our country has and continues to face. As a community, we are deeply impacted by these tragedies and the reminder they bring of the social injustice that exists in the world and in the Rice community.
+We strive to raise awareness for these injustices and are dedicated to starting within our residential college. We write this to state that Duncan is committed to creating an environment that values and supports our Black Duncaroos. We are challenging our non-Black Duncaroos to commit to being anti-racist, inclusive, and unwavering in their allyship. We will have zero tolerance for discrimination and will make efforts to amplify Black voices and encourage inclusivity.
+We understand that this burden is not for Black Americans to take alone. We stand in active solidarity with the Black community. We realize that many of our fellow Black Duncaroos are grieving and exhausted from taking on this fight alone. It is up to us to stand with our peers and promise to extend allyship beyond our words. We understand the work that it will take to fix the problems of racism in this country, but we also understand that change starts with action.
+To be silent is to be complicit, and we as a college will not stay silent on issues that affect our family and the Black community.
+</mutableString>
+                                        <color key="textColor" systemColor="labelColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="splash" translatesAutoresizingMaskIntoConstraints="NO" id="gad-9a-VKE">
+                                        <rect key="frame" x="67" y="24" width="240" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="Gpz-4f-1Xk" appends="YES" id="8nP-JC-OQe"/>
+                                        </connections>
+                                    </imageView>
+                                </subviews>
+                                <gestureRecognizers/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="nVE-Or-Nrq"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="ncG-2B-cY6"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="GE2-MA-qAm"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="About Duncan" id="S7H-Ka-98M"/>
+                    <connections>
+                        <outlet property="logoImg" destination="gad-9a-VKE" id="2j1-Rx-4T5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KMc-iH-ilC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Gpz-4f-1Xk">
+                    <connections>
+                        <action selector="logoTapped:" destination="hij-uG-apm" id="xnJ-dH-wto"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-2300" y="167.41071428571428"/>
+        </scene>
     </scenes>
     <resources>
         <image name="angry" width="218" height="231"/>
@@ -541,7 +602,11 @@
         <image name="love" width="320" height="320"/>
         <image name="plus.circle.fill" catalog="system" width="128" height="121"/>
         <image name="sad" width="360" height="360"/>
+        <image name="splash" width="225" height="225"/>
         <image name="wow" width="582" height="428"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
