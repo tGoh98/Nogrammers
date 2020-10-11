@@ -36,7 +36,12 @@
     cell.loveLabel.text = [NSString stringWithFormat:@"%@",self.sdsPosts[indexPath.row][@"reacs"][@"love"]];
     cell.sadLabel.text = [NSString stringWithFormat:@"%@",self.sdsPosts[indexPath.row][@"reacs"][@"sad"]];
     cell.wowLabel.text = [NSString stringWithFormat:@"%@",self.sdsPosts[indexPath.row][@"reacs"][@"wow"]];
-    cell.userImage.image = [UIImage imageNamed:@"kFB.png"];
+    NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"%@",self.sdsPosts[indexPath.row][@"pic"]]];
+    NSData *data = [NSData dataWithContentsOfURL:url];
+    UIImage *image = [UIImage imageWithData:data];
+    cell.userImage.layer.cornerRadius = 20;
+    cell.imageView.clipsToBounds = YES;
+    cell.userImage.image = image;
     
     return cell;
 }
