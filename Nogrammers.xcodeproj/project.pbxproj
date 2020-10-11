@@ -24,6 +24,18 @@
 		C2DC138D25326C7700619D63 /* SDSCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DC138C25326C7700619D63 /* SDSCell.m */; };
 		C2DC13912532803200619D63 /* eggViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DC13902532803200619D63 /* eggViewController.m */; };
 		C2DC13952532AA0A00619D63 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DC13942532AA0A00619D63 /* AboutViewController.m */; };
+		C2DC13A82532B15800619D63 /* AcariSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2DC139C2532B15800619D63 /* AcariSans-SemiBoldItalic.ttf */; };
+		C2DC13A92532B15800619D63 /* AcariSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2DC139D2532B15800619D63 /* AcariSans-SemiBold.ttf */; };
+		C2DC13AA2532B15800619D63 /* AcariSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2DC139E2532B15800619D63 /* AcariSans-Italic.ttf */; };
+		C2DC13AB2532B15800619D63 /* AcariSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2DC139F2532B15800619D63 /* AcariSans-Light.ttf */; };
+		C2DC13AC2532B15800619D63 /* AcariSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2DC13A02532B15800619D63 /* AcariSans-LightItalic.ttf */; };
+		C2DC13AD2532B15800619D63 /* AcariSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2DC13A12532B15800619D63 /* AcariSans-Medium.ttf */; };
+		C2DC13AE2532B15800619D63 /* AcariSans.js in Resources */ = {isa = PBXBuildFile; fileRef = C2DC13A22532B15800619D63 /* AcariSans.js */; };
+		C2DC13AF2532B15800619D63 /* AcariSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2DC13A32532B15800619D63 /* AcariSans-Regular.ttf */; };
+		C2DC13B02532B15800619D63 /* OFL.TXT in Resources */ = {isa = PBXBuildFile; fileRef = C2DC13A42532B15800619D63 /* OFL.TXT */; };
+		C2DC13B12532B15800619D63 /* AcariSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2DC13A52532B15800619D63 /* AcariSans-MediumItalic.ttf */; };
+		C2DC13B22532B15800619D63 /* AcariSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2DC13A62532B15800619D63 /* AcariSans-BoldItalic.ttf */; };
+		C2DC13B32532B15800619D63 /* AcariSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2DC13A72532B15800619D63 /* AcariSans-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +70,18 @@
 		C2DC13902532803200619D63 /* eggViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eggViewController.m; sourceTree = "<group>"; };
 		C2DC13932532AA0A00619D63 /* AboutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
 		C2DC13942532AA0A00619D63 /* AboutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		C2DC139C2532B15800619D63 /* AcariSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AcariSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		C2DC139D2532B15800619D63 /* AcariSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AcariSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		C2DC139E2532B15800619D63 /* AcariSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AcariSans-Italic.ttf"; sourceTree = "<group>"; };
+		C2DC139F2532B15800619D63 /* AcariSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AcariSans-Light.ttf"; sourceTree = "<group>"; };
+		C2DC13A02532B15800619D63 /* AcariSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AcariSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		C2DC13A12532B15800619D63 /* AcariSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AcariSans-Medium.ttf"; sourceTree = "<group>"; };
+		C2DC13A22532B15800619D63 /* AcariSans.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = AcariSans.js; sourceTree = "<group>"; };
+		C2DC13A32532B15800619D63 /* AcariSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AcariSans-Regular.ttf"; sourceTree = "<group>"; };
+		C2DC13A42532B15800619D63 /* OFL.TXT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.TXT; sourceTree = "<group>"; };
+		C2DC13A52532B15800619D63 /* AcariSans-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AcariSans-MediumItalic.ttf"; sourceTree = "<group>"; };
+		C2DC13A62532B15800619D63 /* AcariSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AcariSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		C2DC13A72532B15800619D63 /* AcariSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AcariSans-Bold.ttf"; sourceTree = "<group>"; };
 		F394A3D036EBC82906E9E48D /* Pods-Nogrammers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nogrammers.release.xcconfig"; path = "Target Support Files/Pods-Nogrammers/Pods-Nogrammers.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,6 +135,7 @@
 		C270D1EB25316F9400C9CF61 /* Nogrammers */ = {
 			isa = PBXGroup;
 			children = (
+				C2DC139B2532B15800619D63 /* fonts */,
 				C270D1EC25316F9400C9CF61 /* AppDelegate.h */,
 				C270D1ED25316F9400C9CF61 /* AppDelegate.m */,
 				C270D1EF25316F9400C9CF61 /* SceneDelegate.h */,
@@ -149,6 +174,25 @@
 				C2DC13942532AA0A00619D63 /* AboutViewController.m */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C2DC139B2532B15800619D63 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C2DC139C2532B15800619D63 /* AcariSans-SemiBoldItalic.ttf */,
+				C2DC139D2532B15800619D63 /* AcariSans-SemiBold.ttf */,
+				C2DC139E2532B15800619D63 /* AcariSans-Italic.ttf */,
+				C2DC139F2532B15800619D63 /* AcariSans-Light.ttf */,
+				C2DC13A02532B15800619D63 /* AcariSans-LightItalic.ttf */,
+				C2DC13A12532B15800619D63 /* AcariSans-Medium.ttf */,
+				C2DC13A22532B15800619D63 /* AcariSans.js */,
+				C2DC13A32532B15800619D63 /* AcariSans-Regular.ttf */,
+				C2DC13A42532B15800619D63 /* OFL.TXT */,
+				C2DC13A52532B15800619D63 /* AcariSans-MediumItalic.ttf */,
+				C2DC13A62532B15800619D63 /* AcariSans-BoldItalic.ttf */,
+				C2DC13A72532B15800619D63 /* AcariSans-Bold.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,8 +254,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				C270D1FC25316F9700C9CF61 /* LaunchScreen.storyboard in Resources */,
+				C2DC13B32532B15800619D63 /* AcariSans-Bold.ttf in Resources */,
+				C2DC13AB2532B15800619D63 /* AcariSans-Light.ttf in Resources */,
+				C2DC13AE2532B15800619D63 /* AcariSans.js in Resources */,
+				C2DC13AA2532B15800619D63 /* AcariSans-Italic.ttf in Resources */,
+				C2DC13B22532B15800619D63 /* AcariSans-BoldItalic.ttf in Resources */,
+				C2DC13A92532B15800619D63 /* AcariSans-SemiBold.ttf in Resources */,
+				C2DC13B12532B15800619D63 /* AcariSans-MediumItalic.ttf in Resources */,
+				C2DC13AF2532B15800619D63 /* AcariSans-Regular.ttf in Resources */,
+				C2DC13A82532B15800619D63 /* AcariSans-SemiBoldItalic.ttf in Resources */,
+				C2DC13AD2532B15800619D63 /* AcariSans-Medium.ttf in Resources */,
+				C2DC13AC2532B15800619D63 /* AcariSans-LightItalic.ttf in Resources */,
 				C293A5DD25321E030099BC46 /* GoogleService-Info.plist in Resources */,
 				C270D1F925316F9700C9CF61 /* Assets.xcassets in Resources */,
+				C2DC13B02532B15800619D63 /* OFL.TXT in Resources */,
 				C270D1F725316F9400C9CF61 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

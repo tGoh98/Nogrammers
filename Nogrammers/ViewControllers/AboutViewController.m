@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.logoImg.layer.cornerRadius = 20;
+    self.logoImg.clipsToBounds = YES;
 }
 - (IBAction)logoTapped:(id)sender {
     NSURL* url = [[NSURL alloc] initWithString: @"https://duncan.rice.edu/"];

@@ -13,6 +13,7 @@
 @property (weak, nonatomic) IBOutlet UITableView *shoutoutsTableView;
 @property (strong, nonatomic) FIRDatabaseReference *fbRef;
 @property (strong, nonatomic) NSArray *posts;
+@property (strong, nonatomic) NSArray *avatars;
 
 @end
 
@@ -24,6 +25,7 @@
     self.shoutoutsTableView.dataSource = self;
     self.shoutoutsTableView.delegate = self;
     [self fetchPosts];
+    self.avatars = @[@"kg1.png", @"kt1.png", @"kg2.png", @"kw1.png", @"ks1.png", @"km1.png", @"k1.png", @"kFB.png"];
 }
 
 - (void)fetchPosts {
@@ -51,7 +53,10 @@
     NSString *dateString = [formatter stringFromDate:[NSDate dateWithTimeIntervalSince1970:date]];
     
     cell.dateLabel.text = dateString;
-    cell.userImage.image = [UIImage imageNamed:@"k1.png"];
+    
+    uint32_t index = arc4random_uniform((int) self.avatars.count);
+    
+    cell.userImage.image = [UIImage imageNamed:self.avatars[index]];
     return cell;
 }
 

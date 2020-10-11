@@ -10,6 +10,7 @@
 
 @interface ComposeViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *shoutoutText;
+@property (weak, nonatomic) IBOutlet UITextField *nameText;
 @property (weak, nonatomic) IBOutlet UIButton *submitButton;
 @property (strong, nonatomic) FIRDatabaseReference *fbRef;
 
@@ -29,7 +30,7 @@
         NSUInteger count = snapshot.childrenCount;
         NSString *msg = self.shoutoutText.text;
         self.fbRef = [[FIRDatabase database] reference];
-        [[self.fbRef child:[NSString stringWithFormat: @"shoutouts/%lu", count]] setValue:@{@"poster":@"tgoh",@"text": msg, @"date":[NSNumber numberWithDouble:[[NSDate date] timeIntervalSince1970]]}];
+        [[self.fbRef child:[NSString stringWithFormat: @"shoutouts/%lu", count]] setValue:@{@"poster":self.nameText.text,@"text": msg, @"date":[NSNumber numberWithDouble:[[NSDate date] timeIntervalSince1970]]}];
         [self dismissViewControllerAnimated:YES completion:NULL];    }];
 }
 

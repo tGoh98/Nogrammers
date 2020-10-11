@@ -58,7 +58,7 @@
         else {
             NSDictionary *dataArray = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
             self.sdsPosts = dataArray[@"recent_posts"];
-            NSLog(@"%@", self.sdsPosts);
+//            NSLog(@"%@", self.sdsPosts);
             [self.sdsTableView reloadData];
             
         }

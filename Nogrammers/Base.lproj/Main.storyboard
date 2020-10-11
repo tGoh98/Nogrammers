@@ -4,12 +4,21 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="AcariSans-Regular.ttf">
+            <string>AcariSans-Regular</string>
+        </array>
+        <array key="AcariSans-SemiBold.ttf">
+            <string>AcariSans-SemiBold</string>
+        </array>
+    </customFonts>
     <scenes>
-        <!--shout outs-->
+        <!--Shoutouts-->
         <scene sceneID="eyf-b1-2wT">
             <objects>
                 <viewController id="MkQ-I9-yso" customClass="ShoutOutViewController" sceneMemberID="viewController">
@@ -18,39 +27,39 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="HYZ-c1-nLk">
-                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ShoutOutCell" id="Svu-pW-id1" customClass="ShoutOutCell">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="114"/>
+                                        <rect key="frame" x="0.0" y="28" width="414" height="94"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Svu-pW-id1" id="iKI-AG-Oxb">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="114"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="94"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VI2-Tl-d4N">
-                                                    <rect key="frame" x="11" y="11" width="60" height="60"/>
+                                                    <rect key="frame" x="11" y="11" width="40" height="40"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="60" id="bJx-aR-jma"/>
-                                                        <constraint firstAttribute="width" constant="60" id="jQt-PV-xEx"/>
+                                                        <constraint firstAttribute="height" constant="40" id="bJx-aR-jma"/>
+                                                        <constraint firstAttribute="width" constant="40" id="jQt-PV-xEx"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kangaroo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GS3-o5-Y6S">
-                                                    <rect key="frame" x="82" y="20" width="73" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <rect key="frame" x="62" y="21" width="73" height="20"/>
+                                                    <fontDescription key="fontDescription" name="AcariSans-SemiBold" family="Acari Sans" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="we love duncan!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dfo-dp-jt8">
-                                                    <rect key="frame" x="11" y="82" width="123" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <rect key="frame" x="30" y="62" width="119" height="21"/>
+                                                    <fontDescription key="fontDescription" name="AcariSans-Regular" family="Acari Sans" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jDW-C5-1qu">
-                                                    <rect key="frame" x="361" y="11" width="42" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
+                                                    <rect key="frame" x="368.5" y="22" width="34.5" height="18.5"/>
+                                                    <fontDescription key="fontDescription" name="AcariSans-Regular" family="Acari Sans" pointSize="15"/>
+                                                    <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -59,12 +68,12 @@
                                                 <constraint firstItem="dfo-dp-jt8" firstAttribute="top" secondItem="VI2-Tl-d4N" secondAttribute="bottom" constant="11" id="2nV-gV-XfB"/>
                                                 <constraint firstItem="GS3-o5-Y6S" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="jDW-C5-1qu" secondAttribute="leading" constant="-11" id="7Sw-2m-xLI"/>
                                                 <constraint firstItem="VI2-Tl-d4N" firstAttribute="top" secondItem="iKI-AG-Oxb" secondAttribute="top" constant="11" id="8f3-3B-cAQ"/>
-                                                <constraint firstItem="jDW-C5-1qu" firstAttribute="top" secondItem="iKI-AG-Oxb" secondAttribute="top" constant="11" id="GcE-n1-l14"/>
                                                 <constraint firstItem="VI2-Tl-d4N" firstAttribute="leading" secondItem="iKI-AG-Oxb" secondAttribute="leading" constant="11" id="LHF-Zu-efc"/>
-                                                <constraint firstItem="dfo-dp-jt8" firstAttribute="leading" secondItem="iKI-AG-Oxb" secondAttribute="leading" constant="11" id="Sn7-1X-2Kn"/>
+                                                <constraint firstItem="dfo-dp-jt8" firstAttribute="leading" secondItem="iKI-AG-Oxb" secondAttribute="leading" constant="30" id="Sn7-1X-2Kn"/>
                                                 <constraint firstAttribute="bottom" secondItem="dfo-dp-jt8" secondAttribute="bottom" constant="11" id="YyM-fr-byU"/>
-                                                <constraint firstItem="GS3-o5-Y6S" firstAttribute="top" secondItem="iKI-AG-Oxb" secondAttribute="top" constant="20" id="ZAU-7x-weU"/>
                                                 <constraint firstItem="GS3-o5-Y6S" firstAttribute="leading" secondItem="VI2-Tl-d4N" secondAttribute="trailing" constant="11" id="d0a-FA-wcW"/>
+                                                <constraint firstItem="GS3-o5-Y6S" firstAttribute="centerY" secondItem="VI2-Tl-d4N" secondAttribute="centerY" id="nfH-9E-WxY"/>
+                                                <constraint firstItem="jDW-C5-1qu" firstAttribute="centerY" secondItem="VI2-Tl-d4N" secondAttribute="centerY" id="o1b-vv-QQK"/>
                                                 <constraint firstAttribute="trailing" secondItem="jDW-C5-1qu" secondAttribute="trailing" constant="11" id="wPE-F9-bRP"/>
                                             </constraints>
                                         </tableViewCellContentView>
@@ -78,7 +87,7 @@
                                 </prototypes>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zMS-yj-TrD">
-                                <rect key="frame" x="289" y="688" width="75" height="75"/>
+                                <rect key="frame" x="309" y="708" width="75" height="75"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="75" id="1qf-IY-ewV"/>
                                     <constraint firstAttribute="height" constant="75" id="KAw-KU-Eyy"/>
@@ -92,24 +101,24 @@
                         <viewLayoutGuide key="safeArea" id="g80-Sv-18D"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="g80-Sv-18D" firstAttribute="trailing" secondItem="zMS-yj-TrD" secondAttribute="trailing" constant="50" id="Gy3-ei-YBD"/>
-                            <constraint firstItem="g80-Sv-18D" firstAttribute="bottom" secondItem="zMS-yj-TrD" secondAttribute="bottom" constant="50" id="HyI-Tj-kjT"/>
+                            <constraint firstItem="g80-Sv-18D" firstAttribute="trailing" secondItem="zMS-yj-TrD" secondAttribute="trailing" constant="30" id="Gy3-ei-YBD"/>
+                            <constraint firstItem="g80-Sv-18D" firstAttribute="bottom" secondItem="zMS-yj-TrD" secondAttribute="bottom" constant="30" id="HyI-Tj-kjT"/>
                             <constraint firstItem="g80-Sv-18D" firstAttribute="bottom" secondItem="HYZ-c1-nLk" secondAttribute="bottom" id="bwH-Os-SaA"/>
                             <constraint firstItem="HYZ-c1-nLk" firstAttribute="leading" secondItem="g80-Sv-18D" secondAttribute="leading" id="d4u-99-ess"/>
                             <constraint firstItem="g80-Sv-18D" firstAttribute="trailing" secondItem="HYZ-c1-nLk" secondAttribute="trailing" id="tIH-OS-f7T"/>
                             <constraint firstItem="HYZ-c1-nLk" firstAttribute="top" secondItem="g80-Sv-18D" secondAttribute="top" id="uK0-J9-tus"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="shout outs" id="elD-Ig-EaX"/>
+                    <navigationItem key="navigationItem" title="Shoutouts" id="b8h-gE-kC6"/>
                     <connections>
                         <outlet property="shoutoutsTableView" destination="HYZ-c1-nLk" id="NE9-xW-hQa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1e2-xV-x3Z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-349.27536231884062" y="453.34821428571428"/>
+            <point key="canvasLocation" x="1471.0144927536232" y="453.34821428571428"/>
         </scene>
-        <!--SDS-->
+        <!--S**** Duncan Says-->
         <scene sceneID="aeb-QE-3Yx">
             <objects>
                 <viewController id="HjK-Jz-dVX" customClass="SDSViewController" sceneMemberID="viewController">
@@ -118,7 +127,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="LKI-KZ-naw">
-                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SDSCell" rowHeight="107" id="VOo-WD-nZX" customClass="SDSCell">
@@ -129,15 +138,15 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cId-Ri-G0Y">
-                                                    <rect key="frame" x="72" y="11" width="41.5" height="20.5"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <rect key="frame" x="72" y="11" width="42" height="20"/>
+                                                    <fontDescription key="fontDescription" name="AcariSans-SemiBold" family="Acari Sans" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xnq-rR-4AF">
-                                                    <rect key="frame" x="361" y="11" width="42" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
+                                                    <rect key="frame" x="366" y="11" width="37" height="17.5"/>
+                                                    <fontDescription key="fontDescription" name="AcariSans-Regular" family="Acari Sans" pointSize="15"/>
+                                                    <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LGA-Tv-2ph">
@@ -148,86 +157,86 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aQ1-5j-uu7">
-                                                    <rect key="frame" x="33" y="72" width="11" height="28"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <rect key="frame" x="52" y="72" width="10" height="28"/>
+                                                    <fontDescription key="fontDescription" name="AcariSans-Regular" family="Acari Sans" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="like" translatesAutoresizingMaskIntoConstraints="NO" id="Q8p-ed-bE6">
-                                                    <rect key="frame" x="11" y="76" width="20" height="20"/>
+                                                    <rect key="frame" x="30" y="76" width="20" height="20"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="20" id="N6x-cg-hk5"/>
                                                         <constraint firstAttribute="height" constant="20" id="g1b-2c-Boc"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6E7-0A-BYE">
-                                                    <rect key="frame" x="71" y="76" width="11" height="20"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <rect key="frame" x="89" y="76" width="10" height="20"/>
+                                                    <fontDescription key="fontDescription" name="AcariSans-Regular" family="Acari Sans" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="love" translatesAutoresizingMaskIntoConstraints="NO" id="How-pd-yGT">
-                                                    <rect key="frame" x="49" y="76" width="20" height="20"/>
+                                                    <rect key="frame" x="67" y="76" width="20" height="20"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="20" id="Bdi-GP-sh7"/>
                                                         <constraint firstAttribute="width" constant="20" id="LFH-Mg-82g"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="naK-Cc-nJt">
-                                                    <rect key="frame" x="109" y="75.5" width="11" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <rect key="frame" x="126" y="76" width="10" height="20"/>
+                                                    <fontDescription key="fontDescription" name="AcariSans-Regular" family="Acari Sans" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="haha" translatesAutoresizingMaskIntoConstraints="NO" id="b0s-9t-pjt">
-                                                    <rect key="frame" x="87" y="76" width="20" height="20"/>
+                                                    <rect key="frame" x="104" y="76" width="20" height="20"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="20" id="CKc-vH-7ZC"/>
                                                         <constraint firstAttribute="width" constant="20" id="gbg-nc-jKq"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xcz-0e-UvA">
-                                                    <rect key="frame" x="147" y="75.5" width="11" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <rect key="frame" x="163" y="76" width="10" height="20"/>
+                                                    <fontDescription key="fontDescription" name="AcariSans-Regular" family="Acari Sans" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wow" translatesAutoresizingMaskIntoConstraints="NO" id="hBV-2B-OHu">
-                                                    <rect key="frame" x="125" y="76" width="20" height="20"/>
+                                                    <rect key="frame" x="141" y="76" width="20" height="20"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="20" id="3e0-sO-8R8"/>
                                                         <constraint firstAttribute="height" constant="20" id="wP5-7V-l0e"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9an-rh-1jq">
-                                                    <rect key="frame" x="185" y="75.5" width="11" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <rect key="frame" x="200" y="76" width="10" height="20"/>
+                                                    <fontDescription key="fontDescription" name="AcariSans-Regular" family="Acari Sans" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sad" translatesAutoresizingMaskIntoConstraints="NO" id="Nbt-YF-smN">
-                                                    <rect key="frame" x="163" y="76" width="20" height="20"/>
+                                                    <rect key="frame" x="178" y="76" width="20" height="20"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="20" id="iBS-Ex-c0g"/>
                                                         <constraint firstAttribute="height" constant="20" id="j6f-aG-vqh"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SrM-sQ-5E5">
-                                                    <rect key="frame" x="223" y="75.5" width="11" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <rect key="frame" x="237" y="76" width="10" height="20"/>
+                                                    <fontDescription key="fontDescription" name="AcariSans-Regular" family="Acari Sans" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="angry" translatesAutoresizingMaskIntoConstraints="NO" id="gKF-cR-J9f">
-                                                    <rect key="frame" x="201" y="76" width="20" height="20"/>
+                                                    <rect key="frame" x="215" y="76" width="20" height="20"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="20" id="ZEv-uI-P4A"/>
                                                         <constraint firstAttribute="height" constant="20" id="kBi-Cx-zLY"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aWc-jr-OyE">
-                                                    <rect key="frame" x="72" y="42.5" width="41.5" height="22.5"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <rect key="frame" x="72" y="42" width="42" height="23"/>
+                                                    <fontDescription key="fontDescription" name="AcariSans-Regular" family="Acari Sans" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -262,7 +271,7 @@
                                                 <constraint firstItem="Xnq-rR-4AF" firstAttribute="top" secondItem="3sl-mF-yrL" secondAttribute="top" constant="11" id="ay6-YE-IQw"/>
                                                 <constraint firstItem="cId-Ri-G0Y" firstAttribute="top" secondItem="3sl-mF-yrL" secondAttribute="top" constant="11" id="eGi-8W-iEI"/>
                                                 <constraint firstItem="LGA-Tv-2ph" firstAttribute="leading" secondItem="3sl-mF-yrL" secondAttribute="leading" constant="11" id="ece-SI-qpz"/>
-                                                <constraint firstItem="Q8p-ed-bE6" firstAttribute="leading" secondItem="3sl-mF-yrL" secondAttribute="leading" constant="11" id="g0v-FF-JMt"/>
+                                                <constraint firstItem="Q8p-ed-bE6" firstAttribute="leading" secondItem="3sl-mF-yrL" secondAttribute="leading" constant="30" id="g0v-FF-JMt"/>
                                                 <constraint firstItem="6E7-0A-BYE" firstAttribute="leading" secondItem="How-pd-yGT" secondAttribute="trailing" constant="2" id="g9d-xj-uUh"/>
                                                 <constraint firstItem="aWc-jr-OyE" firstAttribute="leading" secondItem="LGA-Tv-2ph" secondAttribute="trailing" constant="11" id="jMD-eP-h5K"/>
                                                 <constraint firstItem="gKF-cR-J9f" firstAttribute="leading" secondItem="9an-rh-1jq" secondAttribute="trailing" constant="5" id="ke4-Nx-r6s"/>
@@ -300,14 +309,14 @@
                             <constraint firstItem="xVC-rS-u2X" firstAttribute="bottom" secondItem="LKI-KZ-naw" secondAttribute="bottom" id="zhK-K9-CcM"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="SDS" id="2YY-J8-wZT"/>
+                    <navigationItem key="navigationItem" title="S**** Duncan Says" id="AsH-mm-OI8"/>
                     <connections>
                         <outlet property="sdsTableView" destination="LKI-KZ-naw" id="HXX-r6-GDo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U5v-Vh-J3f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-326.08695652173918" y="1151.7857142857142"/>
+            <point key="canvasLocation" x="584.05797101449275" y="1151.7857142857142"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="qEY-pA-KoG">
@@ -316,20 +325,21 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="z2I-Ys-zvs">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" name="AccentColor"/>
+                        <color key="selectedImageTintColor" red="0.78039215689999997" green="0.56862745100000001" blue="0.1450980392" alpha="1" colorSpace="calibratedRGB"/>
                     </tabBar>
                     <connections>
-                        <segue destination="MkQ-I9-yso" kind="relationship" relationship="viewControllers" id="fuN-8E-mry"/>
+                        <segue destination="V2y-QF-Tjp" kind="relationship" relationship="viewControllers" id="fuN-8E-mry"/>
                         <segue destination="3QB-3G-Dqk" kind="relationship" relationship="viewControllers" id="KeF-Db-U04"/>
-                        <segue destination="HjK-Jz-dVX" kind="relationship" relationship="viewControllers" id="8CX-fv-zTZ"/>
-                        <segue destination="hij-uG-apm" kind="relationship" relationship="viewControllers" id="lh2-Rc-5vK"/>
+                        <segue destination="Jp0-66-TMs" kind="relationship" relationship="viewControllers" id="8CX-fv-zTZ"/>
+                        <segue destination="yR9-NI-E0y" kind="relationship" relationship="viewControllers" id="lh2-Rc-5vK"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kjw-0W-ybm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1239" y="151"/>
+            <point key="canvasLocation" x="-328.98550724637681" y="150.66964285714286"/>
         </scene>
-        <!--Feed View Controller-->
+        <!--Events-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="FeedViewController" sceneMemberID="viewController">
@@ -337,84 +347,96 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="oTf-cd-iWS">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="oTf-cd-iWS">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FeedCell" id="6Ul-Lz-KZK" customClass="FeedTableViewCell">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="245"/>
+                                        <rect key="frame" x="0.0" y="28" width="414" height="288"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="6Ul-Lz-KZK" id="Cd5-Ej-roR">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="245"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="288"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w6c-DW-AxH">
-                                                    <rect key="frame" x="11" y="11" width="392" height="20.5"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="a3Z-88-DxU">
-                                                    <rect key="frame" x="11" y="42.5" width="392" height="150"/>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="a3Z-88-DxU">
+                                                    <rect key="frame" x="28" y="19" width="358" height="250"/>
+                                                    <color key="backgroundColor" red="0.18039215689999999" green="0.24313725489999999" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="tintColor" red="0.18039215689999999" green="0.24313725489999999" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="150" id="6ic-3h-xRY"/>
+                                                        <constraint firstAttribute="height" constant="250" id="iBQ-2b-tBd"/>
                                                     </constraints>
                                                 </imageView>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Um5-mF-fLZ">
-                                                    <rect key="frame" x="11" y="203.5" width="33" height="30.5"/>
-                                                    <state key="normal" title="hello"/>
-                                                    <connections>
-                                                        <action selector="onTap:" destination="6Ul-Lz-KZK" eventType="touchUpInside" id="qog-nq-BTW"/>
-                                                    </connections>
-                                                </button>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tXA-5Z-oRH">
+                                                    <rect key="frame" x="28" y="19" width="358" height="250"/>
+                                                    <color key="backgroundColor" red="0.18039215689999999" green="0.24313725489999999" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w6c-DW-AxH">
+                                                    <rect key="frame" x="31" y="22" width="352" height="244"/>
+                                                    <fontDescription key="fontDescription" name="AcariSans-Regular" family="Acari Sans" pointSize="17"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="w6c-DW-AxH" firstAttribute="top" secondItem="Cd5-Ej-roR" secondAttribute="top" constant="11" id="0NH-H8-k3W"/>
-                                                <constraint firstItem="Um5-mF-fLZ" firstAttribute="leading" secondItem="Cd5-Ej-roR" secondAttribute="leading" constant="11" id="BJn-Ni-6DA"/>
-                                                <constraint firstAttribute="bottom" secondItem="Um5-mF-fLZ" secondAttribute="bottom" constant="11" id="Gnw-ej-47P"/>
-                                                <constraint firstItem="a3Z-88-DxU" firstAttribute="top" secondItem="w6c-DW-AxH" secondAttribute="bottom" constant="11" id="HFb-5S-OW1"/>
-                                                <constraint firstItem="Um5-mF-fLZ" firstAttribute="top" secondItem="a3Z-88-DxU" secondAttribute="bottom" constant="11" id="bwx-nH-WiB"/>
-                                                <constraint firstItem="w6c-DW-AxH" firstAttribute="leading" secondItem="Cd5-Ej-roR" secondAttribute="leading" constant="11" id="c3N-eN-wr5"/>
-                                                <constraint firstAttribute="trailing" secondItem="w6c-DW-AxH" secondAttribute="trailing" constant="11" id="jWv-Z3-agB"/>
-                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Um5-mF-fLZ" secondAttribute="trailing" constant="11" id="lAe-nG-39S"/>
-                                                <constraint firstAttribute="trailing" secondItem="a3Z-88-DxU" secondAttribute="trailing" constant="11" id="uN1-FI-iVk"/>
-                                                <constraint firstItem="a3Z-88-DxU" firstAttribute="leading" secondItem="Cd5-Ej-roR" secondAttribute="leading" constant="11" id="w9m-Sr-IkB"/>
+                                                <constraint firstItem="tXA-5Z-oRH" firstAttribute="bottom" secondItem="a3Z-88-DxU" secondAttribute="bottom" id="1QG-M3-8Pg"/>
+                                                <constraint firstItem="tXA-5Z-oRH" firstAttribute="leading" secondItem="a3Z-88-DxU" secondAttribute="leading" id="4iY-Gn-evZ"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="a3Z-88-DxU" secondAttribute="bottom" constant="8" id="LrG-vO-oH0"/>
+                                                <constraint firstItem="w6c-DW-AxH" firstAttribute="top" secondItem="Cd5-Ej-roR" secondAttribute="topMargin" constant="11" id="Nty-fm-4hh"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="w6c-DW-AxH" secondAttribute="bottom" constant="11" id="QMK-Ak-STC"/>
+                                                <constraint firstItem="a3Z-88-DxU" firstAttribute="leading" secondItem="Cd5-Ej-roR" secondAttribute="leadingMargin" constant="8" id="Sth-gg-1Td"/>
+                                                <constraint firstItem="tXA-5Z-oRH" firstAttribute="top" secondItem="a3Z-88-DxU" secondAttribute="top" id="Vrn-gY-4fo"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="a3Z-88-DxU" secondAttribute="trailing" constant="8" id="WBB-zg-xm4"/>
+                                                <constraint firstItem="a3Z-88-DxU" firstAttribute="top" secondItem="Cd5-Ej-roR" secondAttribute="topMargin" constant="8" id="Wsv-wc-wfs"/>
+                                                <constraint firstItem="w6c-DW-AxH" firstAttribute="leading" secondItem="Cd5-Ej-roR" secondAttribute="leadingMargin" constant="11" id="bfL-uD-V4f"/>
+                                                <constraint firstItem="tXA-5Z-oRH" firstAttribute="trailing" secondItem="a3Z-88-DxU" secondAttribute="trailing" id="xGf-m4-a96"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="w6c-DW-AxH" secondAttribute="trailing" constant="11" id="xS3-p8-J91"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="apiButton" destination="Um5-mF-fLZ" id="6S2-qP-oud"/>
                                             <outlet property="descriptionLabel" destination="w6c-DW-AxH" id="E5p-dw-qf5"/>
                                             <outlet property="eventImage" destination="a3Z-88-DxU" id="ddz-1X-bfh"/>
+                                            <outlet property="tintImage" destination="tXA-5Z-oRH" id="94t-al-tnG"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="l9u-1P-GmD">
-                                <rect key="frame" x="189" y="398" width="75" height="75"/>
+                                <rect key="frame" x="330" y="725" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="hello" image="kStill"/>
                                 <connections>
                                     <segue destination="F4w-Gu-dAW" kind="show" id="1M6-Tx-9i8"/>
                                 </connections>
                             </button>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="FcP-WW-x9R">
+                                <rect key="frame" x="182" y="423" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="C4G-P1-4kM"/>
+                                    <constraint firstAttribute="height" constant="50" id="hc8-dD-HD6"/>
+                                </constraints>
+                                <color key="color" red="0.18039215689999999" green="0.24313725489999999" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="oTf-cd-iWS" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="3RG-kE-c0Q"/>
+                            <constraint firstItem="FcP-WW-x9R" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QVm-xz-3EG"/>
                             <constraint firstItem="oTf-cd-iWS" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="lHq-GR-dOd"/>
+                            <constraint firstItem="FcP-WW-x9R" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="lrh-PD-LhS"/>
                             <constraint firstAttribute="bottom" secondItem="oTf-cd-iWS" secondAttribute="bottom" id="pjk-0V-5XT"/>
                             <constraint firstItem="oTf-cd-iWS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="sqV-yD-mZp"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="Vc8-Z2-4Yj"/>
+                    <navigationItem key="navigationItem" title="Events" id="Vc8-Z2-4Yj"/>
                     <connections>
                         <outlet property="FeedTableView" destination="oTf-cd-iWS" id="BSX-Px-Guy"/>
+                        <outlet property="activity" destination="FcP-WW-x9R" id="ftI-v9-X1y"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="652.17391304347836" y="-258.48214285714283"/>
+            <point key="canvasLocation" x="1562.3188405797102" y="-258.48214285714283"/>
         </scene>
         <!--Egg View Controller-->
         <scene sceneID="L8T-as-iIH">
@@ -442,23 +464,30 @@
                                 <color key="backgroundColor" red="0.18039215689999999" green="0.24313725489999999" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Total feet Duncaroo has jumped:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k4i-yl-Qlr">
-                                <rect key="frame" x="11" y="99" width="344.5" height="30"/>
+                                <rect key="frame" x="11" y="99" width="323" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <fontDescription key="fontDescription" name="AcariSans-Regular" family="Acari Sans" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Jump:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ED-yE-hW2">
                                 <rect key="frame" x="20" y="229" width="336" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="AcariSans-Regular" family="Acari Sans" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HgB-hB-5eb">
                                 <rect key="frame" x="99" y="137" width="256" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="AcariSans-Regular" family="Acari Sans" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DUNCAN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EHX-1d-mTD">
+                                <rect key="frame" x="245" y="223" width="93" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -476,7 +505,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="48i-wX-2K8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1323.1884057971015" y="-258.48214285714283"/>
+            <point key="canvasLocation" x="2233.3333333333335" y="-258.48214285714283"/>
         </scene>
         <!--Compose View Controller-->
         <scene sceneID="D7y-47-ocZ">
@@ -487,8 +516,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aej-W2-9iQ">
-                                <rect key="frame" x="53" y="162" width="49" height="30"/>
+                                <rect key="frame" x="54" y="163" width="52" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AcariSans-Regular" family="Acari Sans" pointSize="17"/>
                                 <state key="normal" title="Submit"/>
                                 <connections>
                                     <action selector="onSubmit:" destination="GDQ-KD-tcG" eventType="touchUpInside" id="c83-7x-5iT"/>
@@ -497,7 +527,13 @@
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Who's a good roo??" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Itb-HO-cpT">
                                 <rect key="frame" x="53" y="104" width="316" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" name="AcariSans-Regular" family="Acari Sans" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fhd-lN-dyw">
+                                <rect key="frame" x="54" y="49" width="316" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AcariSans-Regular" family="Acari Sans" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
@@ -505,19 +541,20 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
+                        <outlet property="nameText" destination="fhd-lN-dyw" id="lAg-3N-aed"/>
                         <outlet property="shoutoutText" destination="Itb-HO-cpT" id="DXx-Sw-ywo"/>
                         <outlet property="submitButton" destination="aej-W2-9iQ" id="YmR-PH-vE7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CFC-18-0H0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="314" y="453"/>
+            <point key="canvasLocation" x="2133.3333333333335" y="452.67857142857139"/>
         </scene>
         <!--Events-->
         <scene sceneID="bWC-5h-mhi">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3QB-3G-Dqk" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Events" id="lyt-Vu-SQ7"/>
+                    <tabBarItem key="tabBarItem" title="Events" image="eventsIcon" id="lyt-Vu-SQ7"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="PL6-uR-L5a">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -530,7 +567,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xg7-nw-eIE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-257.97101449275362" y="-258.48214285714283"/>
+            <point key="canvasLocation" x="652.17391304347836" y="-258.48214285714283"/>
         </scene>
         <!--About Duncan-->
         <scene sceneID="NvK-Wg-Iin">
@@ -544,31 +581,155 @@
                                 <rect key="frame" x="20" y="44" width="374" height="769"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qAA-8s-nB3">
-                                        <rect key="frame" x="8" y="175" width="358" height="567.5"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                        <accessibility key="accessibilityConfiguration">
-                                            <accessibilityTraits key="traits" notEnabled="YES"/>
-                                        </accessibility>
-                                        <mutableString key="text">Statement of Acceptance
-The recent surfacing of the senseless killings of George Floyd, Ahmaud Aubrey, Breonna Taylor and several others have further emphasized the issues of racial inequality that our country has and continues to face. As a community, we are deeply impacted by these tragedies and the reminder they bring of the social injustice that exists in the world and in the Rice community.
-We strive to raise awareness for these injustices and are dedicated to starting within our residential college. We write this to state that Duncan is committed to creating an environment that values and supports our Black Duncaroos. We are challenging our non-Black Duncaroos to commit to being anti-racist, inclusive, and unwavering in their allyship. We will have zero tolerance for discrimination and will make efforts to amplify Black voices and encourage inclusivity.
-We understand that this burden is not for Black Americans to take alone. We stand in active solidarity with the Black community. We realize that many of our fellow Black Duncaroos are grieving and exhausted from taking on this fight alone. It is up to us to stand with our peers and promise to extend allyship beyond our words. We understand the work that it will take to fix the problems of racism in this country, but we also understand that change starts with action.
-To be silent is to be complicit, and we as a college will not stay silent on issues that affect our family and the Black community.
-</mutableString>
-                                        <color key="textColor" systemColor="labelColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
                                     <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="splash" translatesAutoresizingMaskIntoConstraints="NO" id="gad-9a-VKE">
-                                        <rect key="frame" x="67" y="24" width="240" height="128"/>
+                                        <rect key="frame" x="87" y="17" width="200" height="200"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <gestureRecognizers/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="Gpz-4f-1Xk" appends="YES" id="8nP-JC-OQe"/>
                                         </connections>
                                     </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qAA-8s-nB3">
+                                        <rect key="frame" x="8" y="230" width="358" height="492"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <accessibility key="accessibilityConfiguration">
+                                            <accessibilityTraits key="traits" notEnabled="YES"/>
+                                        </accessibility>
+                                        <attributedString key="attributedText">
+                                            <fragment>
+                                                <string key="content">Statement of Acceptance
+</string>
+                                                <attributes>
+                                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="17" name="Avenir-Book"/>
+                                                    <real key="NSKern" value="0.0"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="20" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                        <tabStops/>
+                                                    </paragraphStyle>
+                                                    <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <real key="NSStrokeWidth" value="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                                <attributes>
+                                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="17" name="Avenir-Book"/>
+                                                    <real key="NSKern" value="0.0"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                        <tabStops/>
+                                                    </paragraphStyle>
+                                                    <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <real key="NSStrokeWidth" value="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content">The recent surfacing of the senseless killings of George Floyd, Ahmaud Aubrey, Breonna Taylor and several others have further emphasized the issues of racial inequality that our country has and continues to face. As a community, we are deeply impacted by these tragedies and the reminder they bring of the social injustice that exists in the world and in the Rice community.
+</string>
+                                                <attributes>
+                                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="17" name="Avenir-Book"/>
+                                                    <real key="NSKern" value="0.0"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="20" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                        <tabStops/>
+                                                    </paragraphStyle>
+                                                    <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <real key="NSStrokeWidth" value="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                                <attributes>
+                                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="17" name="Avenir-Book"/>
+                                                    <real key="NSKern" value="0.0"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                        <tabStops/>
+                                                    </paragraphStyle>
+                                                    <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <real key="NSStrokeWidth" value="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content">We strive to raise awareness for these injustices and are dedicated to starting within our residential college. We write this to state that Duncan is committed to creating an environment that values and supports our Black Duncaroos. We are challenging our non-Black Duncaroos to commit to being anti-racist, inclusive, and unwavering in their allyship. We will have zero tolerance for discrimination and will make efforts to amplify Black voices and encourage inclusivity.
+</string>
+                                                <attributes>
+                                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="17" name="Avenir-Book"/>
+                                                    <real key="NSKern" value="0.0"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="20" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                        <tabStops/>
+                                                    </paragraphStyle>
+                                                    <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <real key="NSStrokeWidth" value="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                                <attributes>
+                                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="17" name="Avenir-Book"/>
+                                                    <real key="NSKern" value="0.0"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                        <tabStops/>
+                                                    </paragraphStyle>
+                                                    <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <real key="NSStrokeWidth" value="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content">We understand that this burden is not for Black Americans to take alone. We stand in active solidarity with the Black community. We realize that many of our fellow Black Duncaroos are grieving and exhausted from taking on this fight alone. It is up to us to stand with our peers and promise to extend allyship beyond our words. We understand the work that it will take to fix the problems of racism in this country, but we also understand that change starts with action.
+</string>
+                                                <attributes>
+                                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="17" name="Avenir-Book"/>
+                                                    <real key="NSKern" value="0.0"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="20" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                        <tabStops/>
+                                                    </paragraphStyle>
+                                                    <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <real key="NSStrokeWidth" value="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                                <attributes>
+                                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="17" name="Avenir-Book"/>
+                                                    <real key="NSKern" value="0.0"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                        <tabStops/>
+                                                    </paragraphStyle>
+                                                    <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <real key="NSStrokeWidth" value="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content">To be silent is to be complicit, and we as a college will not stay silent on issues that affect our family and the Black community.
+</string>
+                                                <attributes>
+                                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="17" name="Avenir-Book"/>
+                                                    <real key="NSKern" value="0.0"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="20" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                        <tabStops/>
+                                                    </paragraphStyle>
+                                                    <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <real key="NSStrokeWidth" value="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
                                 </subviews>
                                 <gestureRecognizers/>
                                 <viewLayoutGuide key="contentLayoutGuide" id="nVE-Or-Nrq"/>
@@ -578,7 +739,7 @@ To be silent is to be complicit, and we as a college will not stay silent on iss
                         <viewLayoutGuide key="safeArea" id="GE2-MA-qAm"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="About Duncan" id="S7H-Ka-98M"/>
+                    <navigationItem key="navigationItem" title="About Duncan" id="ruD-5R-yx8"/>
                     <connections>
                         <outlet property="logoImg" destination="gad-9a-VKE" id="2j1-Rx-4T5"/>
                     </connections>
@@ -590,23 +751,84 @@ To be silent is to be complicit, and we as a college will not stay silent on iss
                     </connections>
                 </tapGestureRecognizer>
             </objects>
+            <point key="canvasLocation" x="-1389.8550724637682" y="167.41071428571428"/>
+        </scene>
+        <!--About Duncan-->
+        <scene sceneID="eL4-DA-gsp">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="yR9-NI-E0y" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="About Duncan" image="aboutIcon" id="S7H-Ka-98M"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="cGk-jm-e7j">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="hij-uG-apm" kind="relationship" relationship="rootViewController" id="0KE-Lt-wG9"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eNn-u8-PbB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
             <point key="canvasLocation" x="-2300" y="167.41071428571428"/>
+        </scene>
+        <!--shout outs-->
+        <scene sceneID="ih9-h6-q1Z">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="V2y-QF-Tjp" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="shout outs" image="shoutoutsIcon" id="elD-Ig-EaX"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="2Mt-dI-U80">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="MkQ-I9-yso" kind="relationship" relationship="rootViewController" id="Y4L-g1-W0e"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v40-n0-Dua" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="560.86956521739137" y="453.34821428571428"/>
+        </scene>
+        <!--SDS-->
+        <scene sceneID="1d4-1Q-Lqf">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Jp0-66-TMs" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="SDS" image="sdsIcon" id="2YY-J8-wZT"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="mvS-mM-bYW">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="HjK-Jz-dVX" kind="relationship" relationship="rootViewController" id="Vz7-py-bSu"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RhO-D9-ZoP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-326.08695652173918" y="1151.7857142857142"/>
         </scene>
     </scenes>
     <resources>
+        <image name="aboutIcon" width="31" height="29"/>
         <image name="angry" width="218" height="231"/>
         <image name="building" width="82" height="221"/>
+        <image name="eventsIcon" width="28" height="28"/>
         <image name="haha" width="225" height="225"/>
         <image name="kStill" width="517" height="483"/>
         <image name="like" width="2362" height="2362"/>
         <image name="love" width="320" height="320"/>
         <image name="plus.circle.fill" catalog="system" width="128" height="121"/>
         <image name="sad" width="360" height="360"/>
+        <image name="sdsIcon" width="31" height="28"/>
+        <image name="shoutoutsIcon" width="35" height="31"/>
         <image name="splash" width="225" height="225"/>
         <image name="wow" width="582" height="428"/>
-        <systemColor name="labelColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

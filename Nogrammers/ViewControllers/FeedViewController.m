@@ -16,6 +16,7 @@
 @property (strong, nonatomic) NSArray *events;
 @property (strong, nonatomic) NSString *token;
 @property (strong, nonatomic) FIRDatabaseReference *fbRef;
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activity;
 
 @end
 
@@ -48,8 +49,9 @@
         else {
             NSArray *dataArray = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
             self.events = dataArray;
-            NSLog(@"%@", self.events);
+//            NSLog(@"%@", self.events);
             [self.FeedTableView reloadData];
+            [self.activity stopAnimating];
             
         }
     }];
@@ -57,6 +59,7 @@
 }
 
 -(void) getAccessToken {
+    [self.activity startAnimating];
     NSString *urlString = @"http://riceduncan.mooo.com/api/v1/auth/login";
     NSMutableURLRequest *request = [[NSMutableURLRequest alloc] init];
     [request setHTTPMethod:@"POST"];
@@ -75,7 +78,7 @@
         }
         else {
             NSDictionary *dataDict = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
-            NSLog(@"%@", dataDict);
+//            NSLog(@"%@", dataDict);
             self.token = dataDict[@"token"];
             [self fetchEvents];
         }
@@ -94,6 +97,10 @@
     }
     
     NSData *imageData = [[NSData alloc] initWithContentsOfURL:url];
+    cell.eventImage.layer.cornerRadius = 20;
+    cell.tintImage.layer.cornerRadius = 20;
+    cell.tintImage.clipsToBounds = YES;
+    cell.imageView.clipsToBounds = YES;
     cell.eventImage.image = [UIImage imageWithData: imageData];
     
     return cell;
